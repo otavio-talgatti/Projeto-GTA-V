@@ -78,12 +78,12 @@ gap: 15px;
 }
 
 .home .informacoes .titulo {
-    font-family: 'ChaletComprime';
+    font-family: 'CharletComprime';
     font-size: 55px;
 }
 
 .home .informacoes .texto{
-    font-family: 'Chalet';
+    font-family: 'CharletComprime';
     font-size: 18px;
     line-height: 1.6;
 }
@@ -92,7 +92,7 @@ gap: 15px;
     background-color: rgba(255, 255, 255, .1);
     border: 0.5px solid #fff;
     border-radius: 4px;
-    font-family: 'ChaletComprime';
+    font-family: 'CharletComprime';
     font-size: 28px;
     text-align: center;
     padding: 20px 40px;
@@ -125,10 +125,10 @@ gap: 15px;
 }
 
 .compre-ja .titulo {
-    font-family: 'ChaletComprime';
+    font-family: 'CharletComprime';
     font-size: 50px;
     font-weight: 700;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .compre-ja .cartao {
@@ -145,23 +145,24 @@ gap: 15px;
 .compre-ja .informacoes {
     display: flex;
     flex-direction: column;
+    gap: 30px;
     grid-auto-flow: 30px;
 }
 
 .compre-ja .informacoes h3{
-    font-family: 'ChaletComprime';
+    font-family: 'CharletComprime';
     font-size: 52px;
     font-weight: 700;
 }
 
 .compre-ja .informacoes p {
     color: #e8e8e8;
-    font-family: 'ChaletComprime';
+    font-family: 'CharletComprime';
     font-size: 16px;
     line-height: 1.6;
 }
 
-.compre-ja .informacoes .plataforma {
+.compre-ja .informacoes .plataformas {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
@@ -178,13 +179,17 @@ gap: 15px;
     opacity: 0;
 }
 
-.compre-ja .btn-plataforma .plataformas.ativo {
+.compre-ja .btn-plataforma .plataformas {
     display: flex;
     opacity: 1;
 }
 
 .compre-ja .btn-plataforma .plataforma li {
     padding: 20px;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(1):hover{
+    background-color: #00439c;
 }
 
 .compre-ja .btn-plataforma .plataformas li:nth-child(1){
@@ -197,6 +202,10 @@ gap: 15px;
 
 .compre-ja .btn-plataforma .plataformas li:nth-child(3){
     border: 1px solid #00439c;
+}
+
+.compre-ja .btn-plataforma .plataformas li:nth-child(3):hover{
+    background-color: #00439c;
 }
 
 
