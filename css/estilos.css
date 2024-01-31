@@ -179,12 +179,12 @@ gap: 15px;
     opacity: 0;
 }
 
-.compre-ja .btn-plataforma .plataformas {
+.compre-ja .btn-plataforma .plataformas.ativo {
     display: flex;
     opacity: 1;
 }
 
-.compre-ja .btn-plataforma .plataforma li {
+.compre-ja .btn-plataforma .plataformas li {
     padding: 20px;
 }
 
@@ -200,6 +200,10 @@ gap: 15px;
     border: 1px solid #387a26;
 }
 
+.compre-ja .btn-plataforma .plataformas li:nth-child(2):hover {
+    background-color: #387a26;
+}
+
 .compre-ja .btn-plataforma .plataformas li:nth-child(3){
     border: 1px solid #00439c;
 }
@@ -213,8 +217,15 @@ gap: 15px;
     border: 1px solid #387a26;
 }
 
+.compre-ja .btn-plataforma .plataformas li:nth-child(4):hover {
+    background-color: #387a26;
+}
+
 
 .compre-ja .btn-plataforma .plataformas li:nth-child(5){
     border: 1px solid #fcaf17;
 }
 
+.compre-ja .btn-plataforma .plataformas li:nth-child(5):hover {
+    background-color: #fcaf17;
+}
